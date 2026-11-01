@@ -1,14 +1,14 @@
 # Classics-Inferences
 DaiGenix's methodology is simple: "Plow the land first, and you'll be sure of a good harvest".Our strategy, therefore, starts with the foundation: classic yet modern exploratory analysis ("Plow the land"), inferential analytics ("Sowing with precision"), and finally, predictive modelling ("Harvesting the future").
 
-Areas of specialty
+# Areas of specialty
 -Scan-scath analysis, validation of data and presentation of results with dashboards. Full data research includes:
 --descriptive analysis: Run tests and descriptive statistics (variability, centrality, asymmetry or bias. fashion and kurtosis, in tabulated summary and graphic). Descriptive pre-recognition of the predominant characteristic statograph (mean and standard or medium deviation and interquartile range)
 --the structural analysis of the data: such as the graphical pre-recognition (I charts) of non-random patterns (tendency, cyclicity, clustering or clusters, jumps, population mixing. oscillation and extremes), analytical recognition of atypical values (outlier tests), analytical recognition of non-random patterns and autocorrelation analysis of data (for time series or data in chronological order). Initial recognition of assignable or non-assignable causes of data behavior. Final opinion of randomness and independence of data.
 -Inferential analysis: Contrasting of hypotriss (normality, homocedasticity, selection of parametric vs. non-parametric tests to contrast hypothesis of homogeneity for any sample size of quantitative data. Frequency analysis for qualitative or categorical data (ordinal or not) to contrast homogeneity and independence. 
 -Pre-edictive analysis of time series: ARIMA modeling, waste diagnosis and validation.
 
-Areas of application
+# Areas of application
 -Data validation, detection of biases or adultery.
 -Consistency studies.
 -Comparability studies.
@@ -16,8 +16,8 @@ Predicting trends and behaviors. Prediction of short and medium-term values.
 
 ==============================================================================
 
-Tool set
-1. Exploratory Analysis and Data Quality
+# Tool set
+# 1. Exploratory Analysis and Data Quality
 -Descriptive analysis (analytical and graphic), I chart, Run charts.
 --Treating null and duplicate values.
 --Detection of outliers by multiple methods:
@@ -29,7 +29,7 @@ Tool set
 --Analysis of autocorrelation of chronological data:
 ---Global autocorrelation with Ljung Q statistican and K-order Box.
 
-2. Hypothese Contrast
+# 2. Hypothese Contrast
 -Tests of normality:
 --Shapiro-Wilk Test or Ryan-Joiner Test: For small sample size n≤50 with little or great variability (invariable test power with or without atypical points)
 -- Anderson Darling Test: For large sample size n50 with little variability (invariable test power with or without atypical points)
@@ -85,7 +85,7 @@ Wilcoxon T test for two paired samples: For simple comparisons between two non-p
 ---Contingency tables 2xc or 2x2 (chi-square statistic): If the sample is considered large, that is, it is such that n>=40 and all expected frequencies are >=1, or 20=<n<40, and all expected frequencies are >=5.
 -- Fisher's exact Homogeneity Test: If the sample is considered small, i.e. it is such that n<20.
 
-3. Modeling and Forecasting (ARIMA)
+# 3. Modeling and Forecasting (ARIMA)
 - Seasonal analysis (ADF / KPSS) and differentiation.
 - Identification of orders (p,d,q) via ACF/PACF and AIC/BIC criteria.
 - **Diagnosis of waste**: Ljung-Box and normal waste.
